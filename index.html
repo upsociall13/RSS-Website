@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <!-- ═══ Primary SEO ═══ -->
+  <title>RSS — Rashtriya Swayamsevak Sangh | राष्ट्रीय स्वयंसेवक संघ</title>
+  <meta name="description" content="Rashtriya Swayamsevak Sangh (RSS) — A century of selfless service, cultural renaissance, and national awakening. 60,000+ Shakhas. 5 Million+ Swayamsevaks. Serving Bharat since 1925." />
+  <meta name="keywords" content="RSS, Rashtriya Swayamsevak Sangh, राष्ट्रीय स्वयंसेवक संघ, Swayamsevak, Shakha, Sewa, Bharat, Hindu, Sangh, Nagpur, Mohan Bhagwat" />
+  <meta name="author" content="Rashtriya Swayamsevak Sangh" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#E8650A" />
+  <meta name="color-scheme" content="light" />
+  <link rel="canonical" href="https://rss-website.vercel.app/" />
+
+  <!-- ═══ Open Graph / Facebook ═══ -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://rss-website.vercel.app/" />
+  <meta property="og:site_name"   content="Rashtriya Swayamsevak Sangh" />
+  <meta property="og:title"       content="RSS — Rashtriya Swayamsevak Sangh" />
+  <meta property="og:description" content="A century of selfless service, cultural renaissance, and national awakening. 60,000+ Shakhas. 5 Million+ Swayamsevaks. Serving Bharat since 1925." />
+  <meta property="og:image"       content="https://rss-website.vercel.app/og-image.png" />
+  <meta property="og:image:width"  content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale"      content="en_IN" />
+  <meta property="og:locale:alternate" content="hi_IN" />
+
+  <!-- ═══ Twitter Card ═══ -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:site"        content="@RSSorg" />
+  <meta name="twitter:title"       content="RSS — Rashtriya Swayamsevak Sangh" />
+  <meta name="twitter:description" content="A century of selfless service, cultural renaissance, and national awakening. Serving Bharat since 1925." />
+  <meta name="twitter:image"       content="https://rss-website.vercel.app/og-image.png" />
+
+  <!-- ═══ Favicon / Icons ═══ -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23E8650A'/><text y='0.9em' x='50%' text-anchor='middle' font-size='52' font-family='serif' font-weight='900' fill='white' dy='0.05em'>R</text></svg>" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23E8650A'/><text y='0.9em' x='50%' text-anchor='middle' font-size='52' font-family='serif' font-weight='900' fill='white' dy='0.05em'>R</text></svg>" />
+  <meta name="msapplication-TileColor" content="#E8650A" />
+
+  <!-- ═══ Structured Data (JSON-LD) ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Rashtriya Swayamsevak Sangh",
+    "alternateName": ["RSS", "राष्ट्रीय स्वयंसेवक संघ"],
+    "url": "https://rss-website.vercel.app",
+    "logo": "https://rss-website.vercel.app/og-image.png",
+    "description": "Rashtriya Swayamsevak Sangh (RSS) is a century-old movement dedicated to the cultural and social regeneration of Bharat through the building of strong, selfless, and patriotic individuals.",
+    "foundingDate": "1925",
+    "foundingLocation": {
+      "@type": "Place",
+      "name": "Nagpur, Maharashtra, India"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Dr. Keshav Baliram Hedgewar"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nagpur",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://www.rss.org",
+      "https://twitter.com/RSSorg",
+      "https://www.facebook.com/RSSorg"
+    ],
+    "areaServed": "IN",
+    "numberOfEmployees": {
+      "@type": "QuantitativeValue",
+      "minValue": 5000000
+    }
+  }
+  </script>
+
+  <!-- ═══ Performance: DNS prefetch & preconnect ═══ -->
+  <link rel="preconnect"    href="https://fonts.googleapis.com" />
+  <link rel="preconnect"    href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch"  href="https://fonts.googleapis.com" />
+
+  <!-- ═══ Fonts — display=swap for performance ═══ -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --saffron: #E8650A;
+      --saffron-light: #FF8C3A;
+      --saffron-dark: #B84E00;
+      --gold: #C9922A;
+      --charcoal: #1A1712;
+      --charcoal-deep: #100E0A;
+      --warm-white: #FBF8F4;
+      --cream: #F5EED8;
+      --text-muted: #7A6E62;
+      --border-warm: rgba(232,101,10,0.15);
+      --border-dark: rgba(255,255,255,0.07);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--warm-white);
+      color: var(--charcoal);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Hindi mode font override */
+    body.lang-hi,
+    body.lang-hi .section-title,
+    body.lang-hi .hero h1,
+    body.lang-hi .stat-label,
+    body.lang-hi .tl-event,
+    body.lang-hi .tl-desc,
+    body.lang-hi .pillar-title,
+    body.lang-hi .pillar-desc,
+    body.lang-hi .init-name,
+    body.lang-hi .init-desc,
+    body.lang-hi .init-count,
+    body.lang-hi .story-title,
+    body.lang-hi .event-name,
+    body.lang-hi .event-loc,
+    body.lang-hi .leader-name,
+    body.lang-hi .leader-role,
+    body.lang-hi .join-option-title,
+    body.lang-hi .join-option-sub,
+    body.lang-hi .footer-brand-desc,
+    body.lang-hi .footer-links a,
+    body.lang-hi .nav-links a,
+    body.lang-hi .nav-cta,
+    body.lang-hi .btn-primary,
+    body.lang-hi .btn-ghost,
+    body.lang-hi .join-btn,
+    body.lang-hi .newsletter-text h3,
+    body.lang-hi .newsletter-text p,
+    body.lang-hi .map-stat-label,
+    body.lang-hi .section-sub,
+    body.lang-hi .section-tag,
+    body.lang-hi .hero-badge,
+    body.lang-hi .hero-sub {
+      font-family: 'Tiro Devanagari Hindi', serif;
+    }
+    body.lang-hi .hero h1 {
+      line-height: 1.25;
+      font-size: clamp(36px, 4.5vw, 58px);
+    }
+    body.lang-hi .section-title { line-height: 1.4; }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--charcoal-deep); }
+    ::-webkit-scrollbar-thumb { background: var(--saffron-dark); border-radius: 3px; }
+
+    /* ══ LANGUAGE TOGGLE — SEGMENTED PILL ══ */
+    .lang-switcher {
+      display: flex;
+      align-items: center;
+      background: rgba(232,101,10,0.08);
+      border: 1px solid rgba(232,101,10,0.2);
+      border-radius: 40px;
+      padding: 3px;
+      gap: 0;
+      position: relative;
+      user-select: none;
+    }
+    .lang-btn {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border-radius: 40px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-muted);
+      transition: color 0.25s;
+      white-space: nowrap;
+      outline: none;
+    }
+    .lang-btn .lang-flag {
+      font-size: 16px;
+      line-height: 1;
+      transition: transform 0.2s;
+    }
+    .lang-btn .lang-name-en { font-family: 'DM Sans', sans-serif; }
+    .lang-btn .lang-name-hi { font-family: 'Tiro Devanagari Hindi', serif; font-size: 14px; }
+    .lang-btn.active {
+      color: white;
+    }
+    .lang-btn:not(.active):hover { color: var(--saffron); }
+    .lang-btn:not(.active):hover .lang-flag { transform: scale(1.1); }
+    /* Sliding pill background */
+    .lang-slider {
+      position: absolute;
+      top: 3px;
+      height: calc(100% - 6px);
+      background: var(--saffron);
+      border-radius: 40px;
+      transition: left 0.35s cubic-bezier(0.34,1.2,0.64,1), width 0.35s cubic-bezier(0.34,1.2,0.64,1);
+      z-index: 0;
+    }
+
+    /* ── FLOATING FAB language toggle (visible mid-page) ── */
+    .lang-fab {
+      position: fixed;
+      bottom: 2.5rem;
+      right: 2rem;
+      z-index: 500;
+      display: flex;
+      align-items: center;
+      background: var(--charcoal);
+      border: 1px solid rgba(232,101,10,0.35);
+      border-radius: 50px;
+      padding: 5px;
+      gap: 2px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.35), 0 0 0 1px rgba(232,101,10,0.1);
+      transition: box-shadow 0.2s;
+    }
+    .lang-fab:hover { box-shadow: 0 6px 32px rgba(232,101,10,0.25), 0 0 0 1px rgba(232,101,10,0.2); }
+    .fab-btn {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 8px 16px;
+      border-radius: 40px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      color: rgba(255,255,255,0.4);
+      transition: color 0.2s, background 0.2s;
+      white-space: nowrap;
+    }
+    .fab-btn .fab-flag { font-size: 17px; line-height: 1; }
+    .fab-btn .fab-en { font-family: 'DM Sans', sans-serif; }
+    .fab-btn .fab-hi { font-family: 'Tiro Devanagari Hindi', serif; font-size: 14px; }
+    .fab-btn.active {
+      background: var(--saffron);
+      color: white;
+    }
+    .fab-divider {
+      width: 1px; height: 20px;
+      background: rgba(255,255,255,0.1);
+      flex-shrink: 0;
+    }
+    .fab-tooltip {
+      position: absolute;
+      bottom: calc(100% + 10px);
+      right: 0;
+      background: var(--charcoal);
+      color: rgba(255,255,255,0.55);
+      font-size: 11px;
+      padding: 5px 10px;
+      border-radius: 6px;
+      white-space: nowrap;
+      border: 0.5px solid rgba(255,255,255,0.1);
+      opacity: 0;
+      transform: translateY(4px);
+      transition: opacity 0.2s, transform 0.2s;
+      pointer-events: none;
+      font-family: 'DM Sans', sans-serif;
+    }
+    .lang-fab:hover .fab-tooltip { opacity: 1; transform: translateY(0); }
+
+    /* Mobile toggle inside menu */
+    .mobile-lang-switcher {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 1.25rem;
+      padding-top: 1.25rem;
+      border-top: 0.5px solid var(--border-warm);
+    }
+    .mobile-lang-switcher .mlang-btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 11px 0;
+      border-radius: 10px;
+      border: 1px solid var(--border-warm);
+      background: transparent;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-muted);
+      transition: all 0.2s;
+    }
+    .mobile-lang-switcher .mlang-btn .mflag { font-size: 20px; }
+    .mobile-lang-switcher .mlang-btn .men  { font-family: 'DM Sans', sans-serif; }
+    .mobile-lang-switcher .mlang-btn .mhi  { font-family: 'Tiro Devanagari Hindi', serif; font-size: 15px; }
+    .mobile-lang-switcher .mlang-btn.active {
+      background: var(--saffron);
+      border-color: var(--saffron);
+      color: white;
+    }
+    .mobile-lang-switcher .mlang-btn:not(.active):hover {
+      border-color: var(--saffron);
+      color: var(--saffron);
+    }
+
+    /* ══ NAV ══ */
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 3rem;
+      height: 68px;
+      background: rgba(251,248,244,0.94);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 0.5px solid var(--border-warm);
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      transition: background 0.3s, box-shadow 0.3s;
+    }
+    .nav.scrolled {
+      background: rgba(251,248,244,0.98);
+      box-shadow: 0 1px 24px rgba(0,0,0,0.06);
+    }
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+    .logo-mark {
+      width: 38px; height: 38px;
+      background: var(--saffron);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-weight: 900; font-size: 13px;
+      color: white;
+      letter-spacing: 0.5px;
+      flex-shrink: 0;
+    }
+    .logo-text {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--charcoal);
+      letter-spacing: 0.3px;
+    }
+    body.lang-hi .logo-text { font-family: 'Tiro Devanagari Hindi', serif; font-size: 14px; }
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+    .nav-links a {
+      text-decoration: none;
+      font-size: 13.5px;
+      font-weight: 400;
+      color: var(--text-muted);
+      letter-spacing: 0.2px;
+      transition: color 0.2s;
+      position: relative;
+    }
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px; left: 0; right: 0;
+      height: 1px;
+      background: var(--saffron);
+      transform: scaleX(0);
+      transition: transform 0.2s;
+    }
+    .nav-links a:hover { color: var(--saffron); }
+    .nav-links a:hover::after { transform: scaleX(1); }
+    .nav-cta {
+      background: var(--saffron);
+      color: white;
+      border: none;
+      padding: 9px 22px;
+      border-radius: 40px;
+      font-size: 13.5px;
+      font-weight: 500;
+      cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      transition: background 0.2s, transform 0.15s;
+      white-space: nowrap;
+    }
+    .nav-cta:hover { background: var(--saffron-light); transform: translateY(-1px); }
+
+    /* Mobile */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+    }
+    .hamburger span {
+      display: block; width: 22px; height: 1.5px;
+      background: var(--charcoal);
+    }
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 68px; left: 0; right: 0;
+      background: rgba(251,248,244,0.98);
+      border-bottom: 0.5px solid var(--border-warm);
+      padding: 1.5rem 2rem;
+      z-index: 999;
+    }
+    .mobile-menu.open { display: block; }
+    .mobile-menu ul { list-style: none; display: flex; flex-direction: column; gap: 1.1rem; }
+    .mobile-menu a { text-decoration: none; font-size: 16px; color: var(--charcoal); }
+    .mobile-lang { margin-top: 1.25rem; padding-top: 1.25rem; border-top: 0.5px solid var(--border-warm); }
+
+    /* ══ HERO ══ */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(160deg, #1A1410 0%, #2D1E0F 55%, #1A1410 100%);
+      display: flex;
+      align-items: center;
+      padding: 8rem 3rem 5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-glow-top {
+      position: absolute; top: -15%; right: -8%;
+      width: 700px; height: 700px;
+      background: radial-gradient(circle, rgba(232,101,10,0.2) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-glow-btm {
+      position: absolute; bottom: -20%; left: -10%;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(201,146,42,0.1) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-line {
+      position: absolute;
+      bottom: 0; left: 0; right: 0; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--saffron), transparent);
+    }
+    .hero-geo {
+      position: absolute; right: 5%; top: 50%;
+      transform: translateY(-50%);
+      opacity: 0.07;
+    }
+    .hero-geo svg { width: 380px; height: 380px; }
+    .hero-content {
+      max-width: 700px;
+      position: relative; z-index: 2;
+      animation: heroUp 0.9s ease both;
+    }
+    @keyframes heroUp {
+      from { opacity: 0; transform: translateY(28px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(232,101,10,0.12);
+      border: 0.5px solid rgba(232,101,10,0.35);
+      border-radius: 40px;
+      padding: 6px 16px;
+      font-size: 11.5px;
+      color: var(--saffron-light);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+    body.lang-hi .hero-badge { letter-spacing: 0.5px; text-transform: none; font-size: 13px; }
+    .badge-dot {
+      width: 6px; height: 6px;
+      background: var(--saffron);
+      border-radius: 50%;
+      animation: pulse 2.2s infinite;
+      flex-shrink: 0;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.45; transform: scale(0.75); }
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      font-size: clamp(42px, 5.5vw, 66px);
+      line-height: 1.08;
+      color: var(--cream);
+      margin-bottom: 1.75rem;
+      letter-spacing: -0.5px;
+    }
+    .hero h1 em { font-style: italic; color: var(--saffron-light); }
+    .hero-sub {
+      font-size: 17px;
+      color: rgba(245,238,216,0.55);
+      line-height: 1.75;
+      margin-bottom: 2.75rem;
+      max-width: 520px;
+      font-weight: 300;
+    }
+    body.lang-hi .hero-sub { font-size: 16px; line-height: 1.85; }
+    .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--saffron);
+      color: white; border: none;
+      padding: 14px 30px;
+      border-radius: 40px;
+      font-size: 14px; font-weight: 500;
+      cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-primary:hover { background: var(--saffron-light); transform: translateY(-2px); }
+    .btn-ghost {
+      background: transparent;
+      color: rgba(245,238,216,0.65);
+      border: 0.5px solid rgba(245,238,216,0.22);
+      padding: 14px 30px;
+      border-radius: 40px;
+      font-size: 14px; font-weight: 400;
+      cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .btn-ghost:hover { border-color: rgba(245,238,216,0.45); color: rgba(245,238,216,0.9); }
+    .hero-since {
+      position: absolute; bottom: 3rem; right: 3rem;
+      text-align: right; z-index: 2;
+    }
+    .hero-since-label {
+      font-size: 10px;
+      color: rgba(245,238,216,0.25);
+      letter-spacing: 2.5px; text-transform: uppercase;
+    }
+    .hero-since-year {
+      font-family: 'Playfair Display', serif;
+      font-size: 72px; font-weight: 900;
+      color: rgba(232,101,10,0.12);
+      line-height: 1; letter-spacing: -3px;
+    }
+    .scroll-cue {
+      position: absolute; bottom: 2.5rem; left: 50%;
+      transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 6px;
+      z-index: 2;
+    }
+    .scroll-cue span { font-size: 10px; color: rgba(245,238,216,0.2); letter-spacing: 2px; text-transform: uppercase; }
+    .scroll-line {
+      width: 1px; height: 40px;
+      background: linear-gradient(to bottom, rgba(232,101,10,0.6), transparent);
+      animation: scrollAnim 1.8s ease infinite;
+    }
+    @keyframes scrollAnim {
+      0%   { transform: scaleY(0); transform-origin: top; }
+      50%  { transform: scaleY(1); transform-origin: top; }
+      100% { transform: scaleY(0); transform-origin: bottom; }
+    }
+
+    /* ══ STATS ══ */
+    .stats-strip {
+      background: var(--charcoal);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .stat-item {
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      border-right: 0.5px solid var(--border-dark);
+      transition: background 0.3s;
+      position: relative; overflow: hidden;
+    }
+    .stat-item:last-child { border-right: none; }
+    .stat-item:hover { background: rgba(232,101,10,0.06); }
+    .stat-item::before {
+      content: '';
+      position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+      width: 60px; height: 1px;
+      background: var(--saffron); opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .stat-item:hover::before { opacity: 1; }
+    .stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 44px; font-weight: 900;
+      color: var(--saffron-light); line-height: 1;
+    }
+    .stat-suffix { font-size: 24px; color: var(--gold); }
+    .stat-label {
+      font-size: 11.5px; color: rgba(255,255,255,0.35);
+      margin-top: 8px; letter-spacing: 0.8px; text-transform: uppercase;
+    }
+    body.lang-hi .stat-label { letter-spacing: 0.2px; text-transform: none; font-size: 13px; }
+
+    /* ══ SHARED SECTION ══ */
+    .section { padding: 7rem 3rem; }
+    .section-tag {
+      font-size: 11px; letter-spacing: 2.5px;
+      text-transform: uppercase; color: var(--saffron);
+      margin-bottom: 1rem; font-weight: 500;
+    }
+    body.lang-hi .section-tag { letter-spacing: 0.5px; text-transform: none; font-size: 13px; }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(32px, 3.5vw, 46px);
+      font-weight: 700; line-height: 1.18;
+      margin-bottom: 1rem;
+    }
+    .section-sub {
+      font-size: 16.5px; color: var(--text-muted);
+      line-height: 1.72; max-width: 520px; font-weight: 300;
+    }
+    body.lang-hi .section-sub { line-height: 1.85; font-size: 15.5px; }
+
+    /* Reveal */
+    .reveal {
+      opacity: 0; transform: translateY(24px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+    .reveal-delay-4 { transition-delay: 0.4s; }
+
+    /* ══ VISION ══ */
+    .vision-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 5rem; margin-top: 4.5rem; align-items: start;
+    }
+    .timeline { display: flex; flex-direction: column; }
+    .tl-item { display: flex; gap: 1.5rem; padding-bottom: 2.5rem; }
+    .tl-left { display: flex; flex-direction: column; align-items: center; flex-shrink: 0; }
+    .tl-dot {
+      width: 12px; height: 12px; border-radius: 50%;
+      background: var(--saffron); flex-shrink: 0; margin-top: 3px;
+      box-shadow: 0 0 0 3px rgba(232,101,10,0.15);
+    }
+    .tl-dot.gold { background: var(--gold); box-shadow: 0 0 0 3px rgba(201,146,42,0.12); }
+    .tl-dot.light { background: rgba(232,101,10,0.3); box-shadow: none; }
+    .tl-line { width: 1px; flex: 1; background: var(--border-warm); margin-top: 6px; }
+    .tl-year {
+      font-family: 'Playfair Display', serif;
+      font-size: 13px; font-weight: 700;
+      color: var(--saffron); white-space: nowrap;
+      margin-bottom: 5px;
+    }
+    body.lang-hi .tl-year { font-family: 'Tiro Devanagari Hindi', serif; }
+    .tl-event { font-size: 15px; font-weight: 500; margin-bottom: 6px; }
+    .tl-desc { font-size: 13.5px; color: var(--text-muted); line-height: 1.65; }
+    body.lang-hi .tl-desc { line-height: 1.85; }
+    .pillars { display: flex; flex-direction: column; gap: 1rem; }
+    .pillar-card {
+      background: white;
+      border: 0.5px solid var(--border-warm);
+      border-radius: 14px;
+      padding: 1.4rem 1.6rem;
+      display: flex; align-items: flex-start; gap: 1.1rem;
+      transition: border-color 0.25s, transform 0.2s, box-shadow 0.2s;
+    }
+    .pillar-card:hover { border-color: rgba(232,101,10,0.4); transform: translateX(4px); box-shadow: -4px 0 0 var(--saffron); }
+    .pillar-icon {
+      width: 44px; height: 44px; background: rgba(232,101,10,0.07);
+      border-radius: 10px; display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; font-size: 20px;
+    }
+    .pillar-title { font-size: 15px; font-weight: 500; margin-bottom: 5px; }
+    .pillar-desc { font-size: 13.5px; color: var(--text-muted); line-height: 1.55; }
+    body.lang-hi .pillar-desc { line-height: 1.75; }
+
+    /* ══ INITIATIVES ══ */
+    .initiatives-bg { background: #FDF5EC; }
+    .init-header { margin-bottom: 3.5rem; }
+    .init-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
+    }
+    .init-card {
+      background: white;
+      border: 0.5px solid rgba(232,101,10,0.1);
+      border-radius: 16px; padding: 2rem 1.6rem;
+      cursor: pointer;
+      transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+      position: relative; overflow: hidden;
+    }
+    .init-card::after {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: var(--saffron);
+      transform: scaleX(0);
+      transition: transform 0.3s ease; transform-origin: left;
+    }
+    .init-card:hover { transform: translateY(-5px); border-color: rgba(232,101,10,0.25); box-shadow: 0 12px 40px rgba(232,101,10,0.1); }
+    .init-card:hover::after { transform: scaleX(1); }
+    .init-icon { font-size: 32px; margin-bottom: 1.1rem; }
+    .init-name { font-size: 15.5px; font-weight: 500; margin-bottom: 6px; }
+    .init-count { font-size: 12.5px; color: var(--saffron); font-weight: 500; }
+    .init-desc { font-size: 13px; color: var(--text-muted); margin-top: 10px; line-height: 1.6; }
+    body.lang-hi .init-desc { line-height: 1.8; }
+    .init-arrow { display: inline-block; margin-top: 1.2rem; font-size: 12px; color: var(--saffron); opacity: 0; transition: opacity 0.2s, transform 0.2s; }
+    .init-card:hover .init-arrow { opacity: 1; transform: translateX(4px); }
+
+    /* ══ MAP ══ */
+    .map-section { background: var(--charcoal); padding: 6rem 3rem; text-align: center; }
+    .map-section .section-tag { color: var(--saffron-light); }
+    .map-section .section-title { color: var(--cream); }
+    .map-section .section-sub { color: rgba(245,238,216,0.45); margin: 0 auto 4rem; }
+    .map-layout {
+      display: grid; grid-template-columns: 1fr 240px 1fr;
+      gap: 3rem; align-items: center;
+      max-width: 860px; margin: 0 auto;
+    }
+    .map-side { display: flex; flex-direction: column; gap: 1.25rem; }
+    .map-stat-card {
+      background: rgba(255,255,255,0.04);
+      border: 0.5px solid rgba(255,255,255,0.08);
+      border-radius: 14px; padding: 1.25rem 1.5rem;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .map-stat-card:hover { background: rgba(232,101,10,0.08); border-color: rgba(232,101,10,0.25); }
+    .map-stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 30px; font-weight: 700;
+      color: var(--saffron-light); line-height: 1;
+    }
+    .map-stat-label { font-size: 12px; color: rgba(255,255,255,0.32); margin-top: 5px; }
+    body.lang-hi .map-stat-label { font-size: 13px; line-height: 1.5; }
+    .india-svg { filter: drop-shadow(0 0 30px rgba(232,101,10,0.2)); }
+
+    /* ══ STORIES ══ */
+    .stories-section { background: white; }
+    .stories-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 3.5rem; }
+    .story-card {
+      border: 0.5px solid rgba(0,0,0,0.07);
+      border-radius: 16px; overflow: hidden;
+      transition: transform 0.25s, box-shadow 0.25s; cursor: pointer;
+    }
+    .story-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,0.09); }
+    .story-thumb { height: 180px; position: relative; overflow: hidden; }
+    .story-thumb-bg {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 48px; transition: transform 0.4s;
+    }
+    .story-card:hover .story-thumb-bg { transform: scale(1.07); }
+    .story-thumb-bg.s1 { background: linear-gradient(135deg, #2D1E0F, #4A2E14); }
+    .story-thumb-bg.s2 { background: linear-gradient(135deg, #0F1E14, #1A3520); }
+    .story-thumb-bg.s3 { background: linear-gradient(135deg, #1A1212, #3A2020); }
+    .story-tag {
+      position: absolute; top: 12px; left: 12px;
+      background: rgba(232,101,10,0.85); color: white;
+      font-size: 10px; letter-spacing: 1px; text-transform: uppercase;
+      padding: 4px 10px; border-radius: 40px; font-weight: 500;
+    }
+    body.lang-hi .story-tag { letter-spacing: 0.2px; text-transform: none; font-size: 11.5px; }
+    .story-body { padding: 1.4rem; }
+    .story-title { font-size: 15.5px; font-weight: 500; margin-bottom: 8px; line-height: 1.45; }
+    body.lang-hi .story-title { line-height: 1.65; }
+    .story-meta { font-size: 12px; color: var(--text-muted); }
+
+    /* ══ EVENTS ══ */
+    .events-list {
+      margin-top: 3.5rem;
+      display: flex; flex-direction: column; gap: 1px;
+      background: var(--border-warm);
+      border: 0.5px solid var(--border-warm);
+      border-radius: 16px; overflow: hidden;
+    }
+    .event-item {
+      background: white;
+      display: grid; grid-template-columns: 80px 1fr auto;
+      align-items: center; gap: 2rem;
+      padding: 1.5rem 2rem;
+      transition: background 0.2s; cursor: pointer;
+    }
+    .event-item:hover { background: #FEFAF6; }
+    .event-date { text-align: center; border-right: 0.5px solid var(--border-warm); padding-right: 2rem; }
+    .event-day { font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 700; color: var(--saffron); line-height: 1; }
+    .event-month { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-top: 2px; }
+    body.lang-hi .event-month { letter-spacing: 0.2px; text-transform: none; font-size: 13px; }
+    .event-name { font-size: 15px; font-weight: 500; margin-bottom: 4px; }
+    .event-loc { font-size: 13px; color: var(--text-muted); }
+    .event-badge { background: rgba(232,101,10,0.09); color: var(--saffron); font-size: 11px; padding: 5px 12px; border-radius: 40px; font-weight: 500; white-space: nowrap; }
+    body.lang-hi .event-badge { font-size: 12px; }
+    .event-badge.live { background: rgba(16,185,129,0.1); color: #047857; }
+
+    /* ══ LEADERSHIP ══ */
+    .leadership-section { background: #FDF5EC; }
+    .leaders-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 3.5rem; }
+    .leader-card {
+      background: white; border: 0.5px solid var(--border-warm);
+      border-radius: 16px; padding: 2rem 1.75rem;
+      text-align: center;
+      transition: transform 0.25s, border-color 0.25s;
+    }
+    .leader-card:hover { transform: translateY(-4px); border-color: rgba(232,101,10,0.35); }
+    .leader-avatar {
+      width: 72px; height: 72px; border-radius: 50%;
+      background: var(--saffron); margin: 0 auto 1.25rem;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 22px; font-weight: 700; color: white;
+    }
+    .leader-avatar.gold { background: var(--gold); }
+    .leader-avatar.dark { background: var(--charcoal); }
+    .leader-name { font-size: 16px; font-weight: 500; margin-bottom: 4px; }
+    .leader-role { font-size: 13px; color: var(--text-muted); line-height: 1.45; }
+    body.lang-hi .leader-role { line-height: 1.65; }
+
+    /* ══ JOIN ══ */
+    .join-section {
+      background: var(--saffron);
+      padding: 6rem 3rem; text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .join-section::before {
+      content: '';
+      position: absolute; top: -50%; left: 50%; transform: translateX(-50%);
+      width: 900px; height: 900px;
+      background: radial-gradient(circle, rgba(255,255,255,0.09) 0%, transparent 60%);
+    }
+    .join-section::after {
+      content: ''; position: absolute; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    .join-section .section-tag { color: rgba(255,255,255,0.65); }
+    .join-section .section-title { color: white; margin-bottom: 1rem; position: relative; z-index: 1; }
+    .join-section .section-sub { color: rgba(255,255,255,0.7); margin: 0 auto 3rem; position: relative; z-index: 1; }
+    .join-options { display: flex; gap: 1.1rem; justify-content: center; flex-wrap: wrap; position: relative; z-index: 1; }
+    .join-option {
+      background: rgba(255,255,255,0.1); border: 0.5px solid rgba(255,255,255,0.22);
+      border-radius: 14px; padding: 1.6rem 1.8rem;
+      text-align: left; cursor: pointer; width: 220px;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .join-option:hover { background: rgba(255,255,255,0.18); transform: translateY(-3px); }
+    .join-option-icon { font-size: 26px; margin-bottom: 12px; }
+    .join-option-title { font-size: 15px; font-weight: 500; color: white; margin-bottom: 5px; }
+    .join-option-sub { font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.5; }
+    body.lang-hi .join-option-sub { line-height: 1.7; }
+    .join-btn {
+      display: inline-block; background: white; color: var(--saffron-dark);
+      border: none; padding: 15px 38px; border-radius: 40px;
+      font-size: 14.5px; font-weight: 500; cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      margin-top: 3rem; position: relative; z-index: 1;
+      transition: transform 0.15s, box-shadow 0.2s;
+    }
+    .join-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.15); }
+
+    /* ══ NEWSLETTER ══ */
+    .newsletter {
+      background: var(--charcoal);
+      padding: 3.5rem 3rem;
+      display: flex; align-items: center; justify-content: space-between; gap: 3rem;
+    }
+    .newsletter-text h3 { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--cream); margin-bottom: 6px; }
+    body.lang-hi .newsletter-text h3 { font-family: 'Tiro Devanagari Hindi', serif; }
+    .newsletter-text p { font-size: 14px; color: rgba(255,255,255,0.35); }
+    .newsletter-form { display: flex; gap: 10px; flex-shrink: 0; }
+    .newsletter-input {
+      background: rgba(255,255,255,0.06); border: 0.5px solid rgba(255,255,255,0.12);
+      border-radius: 40px; padding: 11px 20px; font-size: 13.5px;
+      color: white; font-family: 'DM Sans', sans-serif;
+      width: 260px; outline: none; transition: border-color 0.2s;
+    }
+    .newsletter-input::placeholder { color: rgba(255,255,255,0.25); }
+    .newsletter-input:focus { border-color: rgba(232,101,10,0.5); }
+    .newsletter-btn {
+      background: var(--saffron); color: white; border: none;
+      padding: 11px 22px; border-radius: 40px;
+      font-size: 13.5px; font-weight: 500;
+      cursor: pointer; font-family: 'DM Sans', sans-serif;
+      transition: background 0.2s;
+    }
+    .newsletter-btn:hover { background: var(--saffron-light); }
+
+    /* ══ FOOTER ══ */
+    .footer { background: var(--charcoal-deep); padding: 4rem 3rem 1.75rem; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3.5rem; padding-bottom: 3rem; border-bottom: 0.5px solid rgba(255,255,255,0.06); }
+    .footer-brand-desc { font-size: 13px; color: rgba(255,255,255,0.3); line-height: 1.75; margin-top: 1rem; font-weight: 300; }
+    body.lang-hi .footer-brand-desc { line-height: 1.9; font-size: 13.5px; }
+    .footer-col-title { font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; color: rgba(255,255,255,0.22); margin-bottom: 1.1rem; font-weight: 500; }
+    body.lang-hi .footer-col-title { letter-spacing: 0.3px; text-transform: none; font-size: 13px; }
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 11px; }
+    .footer-links a { text-decoration: none; font-size: 13.5px; color: rgba(255,255,255,0.38); transition: color 0.2s; }
+    .footer-links a:hover { color: var(--saffron-light); }
+    .footer-bottom { padding-top: 1.75rem; display: flex; justify-content: space-between; align-items: center; gap: 2rem; }
+    .footer-bottom p { font-size: 12px; color: rgba(255,255,255,0.18); }
+    .social-row { display: flex; gap: 8px; }
+    .social-pill { background: rgba(255,255,255,0.05); border: 0.5px solid rgba(255,255,255,0.09); border-radius: 40px; padding: 6px 15px; font-size: 11.5px; color: rgba(255,255,255,0.35); cursor: pointer; transition: color 0.2s, border-color 0.2s; }
+    .social-pill:hover { color: var(--saffron-light); border-color: rgba(232,101,10,0.3); }
+
+    /* ══ RESPONSIVE ══ */
+    @media (max-width: 1100px) {
+      .nav-links { gap: 1.5rem; }
+      .init-grid { grid-template-columns: repeat(2, 1fr); }
+      .leaders-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    }
+    @media (max-width: 860px) {
+      .nav { padding: 0 1.5rem; }
+      .nav-links, .nav-cta { display: none; }
+      .hamburger { display: flex; }
+      .nav-right .lang-switcher { display: none; }
+      .section { padding: 4.5rem 1.5rem; }
+      .hero { padding: 7rem 1.5rem 4rem; }
+      .hero-since, .hero-geo { display: none; }
+      .stats-strip { grid-template-columns: repeat(2, 1fr); }
+      .stat-item:nth-child(2) { border-right: none; }
+      .vision-grid { grid-template-columns: 1fr; gap: 3rem; }
+      .init-grid { grid-template-columns: 1fr; }
+      .map-layout { grid-template-columns: 1fr; }
+      .india-svg { display: none; }
+      .map-side { flex-direction: row; flex-wrap: wrap; }
+      .map-stat-card { flex: 1; min-width: 140px; }
+      .stories-grid { grid-template-columns: 1fr; }
+      .leaders-grid { grid-template-columns: 1fr 1fr; }
+      .join-options { flex-direction: column; align-items: center; }
+      .join-option { width: 100%; max-width: 320px; }
+      .newsletter { flex-direction: column; text-align: center; }
+      .newsletter-form { width: 100%; flex-direction: column; }
+      .newsletter-input { width: 100%; }
+      .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .event-item { grid-template-columns: 60px 1fr; gap: 1rem; }
+      .event-badge { display: none; }
+    }
+    @media (max-width: 480px) {
+      .leaders-grid { grid-template-columns: 1fr; }
+      .stat-item { padding: 1.75rem 1rem; }
+      .stat-number { font-size: 34px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══ NAV ══ -->
+  <nav class="nav" id="mainNav">
+    <a href="#" class="nav-logo">
+      <div class="logo-mark">RSS</div>
+      <span class="logo-text" data-en="Rashtriya Swayamsevak Sangh" data-hi="राष्ट्रीय स्वयंसेवक संघ">Rashtriya Swayamsevak Sangh</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#vision"    data-en="About"       data-hi="परिचय">About</a></li>
+      <li><a href="#vision"    data-en="Vision"      data-hi="दृष्टि">Vision</a></li>
+      <li><a href="#initiatives" data-en="Initiatives" data-hi="पहलें">Initiatives</a></li>
+      <li><a href="#impact"    data-en="Impact"      data-hi="प्रभाव">Impact</a></li>
+      <li><a href="#events"    data-en="Events"      data-hi="कार्यक्रम">Events</a></li>
+      <li><a href="#media"     data-en="Media"       data-hi="मीडिया">Media</a></li>
+    </ul>
+    <div class="nav-right">
+      <!-- Segmented Language Toggle -->
+      <div class="lang-switcher" id="navLangSwitcher" role="group" aria-label="Language switcher">
+        <div class="lang-slider" id="langSlider"></div>
+        <button class="lang-btn active" id="btnEN" onclick="applyLanguage('en')" aria-pressed="true" aria-label="Switch to English">
+          <span class="lang-flag" aria-hidden="true">🇬🇧</span>
+          <span class="lang-name-en">EN</span>
+        </button>
+        <button class="lang-btn" id="btnHI" onclick="applyLanguage('hi')" aria-pressed="false" aria-label="हिंदी में देखें">
+          <span class="lang-flag" aria-hidden="true">🇮🇳</span>
+          <span class="lang-name-hi">हिंदी</span>
+        </button>
+      </div>
+      <button class="nav-cta" data-en="Join the Movement" data-hi="आंदोलन से जुड़ें" onclick="scrollToJoin()">Join the Movement</button>
+    </div>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#vision"      onclick="toggleMenu()" data-en="About &amp; Vision"  data-hi="परिचय एवं दृष्टि">About &amp; Vision</a></li>
+      <li><a href="#initiatives" onclick="toggleMenu()" data-en="Initiatives"        data-hi="पहलें">Initiatives</a></li>
+      <li><a href="#impact"      onclick="toggleMenu()" data-en="Impact"              data-hi="प्रभाव">Impact</a></li>
+      <li><a href="#events"      onclick="toggleMenu()" data-en="Events"              data-hi="कार्यक्रम">Events</a></li>
+      <li><a href="#media"       onclick="toggleMenu()" data-en="Media"               data-hi="मीडिया">Media</a></li>
+      <li><a href="#join"        onclick="toggleMenu()" data-en="Join the Movement"   data-hi="आंदोलन से जुड़ें">Join the Movement</a></li>
+    </ul>
+    <div class="mobile-lang-switcher">
+      <button class="mlang-btn active" id="mbtnEN" onclick="applyLanguage('en'); toggleMenu();" aria-label="Switch to English">
+        <span class="mflag">🇬🇧</span>
+        <span class="men">English</span>
+      </button>
+      <button class="mlang-btn" id="mbtnHI" onclick="applyLanguage('hi'); toggleMenu();" aria-label="हिंदी में देखें">
+        <span class="mflag">🇮🇳</span>
+        <span class="mhi">हिंदी</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══ HERO ══ -->
+  <section class="hero">
+    <div class="hero-glow-top"></div>
+    <div class="hero-glow-btm"></div>
+    <div class="hero-line"></div>
+    <div class="hero-geo">
+      <svg viewBox="0 0 380 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="190" cy="190" r="160" stroke="#E8650A" stroke-width="0.5"/>
+        <circle cx="190" cy="190" r="120" stroke="#E8650A" stroke-width="0.5"/>
+        <circle cx="190" cy="190" r="80"  stroke="#E8650A" stroke-width="0.5"/>
+        <circle cx="190" cy="190" r="40"  stroke="#E8650A" stroke-width="0.5"/>
+        <line x1="30" y1="190" x2="350" y2="190" stroke="#E8650A" stroke-width="0.5"/>
+        <line x1="190" y1="30" x2="190" y2="350" stroke="#E8650A" stroke-width="0.5"/>
+        <line x1="77" y1="77"   x2="303" y2="303" stroke="#E8650A" stroke-width="0.5"/>
+        <line x1="303" y1="77"  x2="77"  y2="303" stroke="#E8650A" stroke-width="0.5"/>
+      </svg>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span data-en="Centenary Year · 1925 – 2025" data-hi="शताब्दी वर्ष · १९२५ – २०२५">Centenary Year · 1925 – 2025</span>
+      </div>
+      <h1>
+        <span data-en="Building a Stronger<br><em>Bharat</em> Through<br>Unity &amp; Seva" data-hi="एकता और सेवा से<br>एक <em>सशक्त भारत</em><br>का निर्माण">Building a Stronger<br><em>Bharat</em> Through<br>Unity &amp; Seva</span>
+      </h1>
+      <p class="hero-sub" data-en="A century of selfless service, cultural renaissance, and national awakening. Five million volunteers. One timeless mission." data-hi="निःस्वार्थ सेवा, सांस्कृतिक पुनर्जागरण और राष्ट्रीय जागरण की एक सदी। पचास लाख स्वयंसेवक। एक शाश्वत मिशन।">
+        A century of selfless service, cultural renaissance, and national awakening. Five million volunteers. One timeless mission.
+      </p>
+      <div class="hero-actions">
+        <button class="btn-primary" data-en="Explore Our Vision" data-hi="हमारी दृष्टि जानें" onclick="document.getElementById('vision').scrollIntoView({behavior:'smooth'})">Explore Our Vision</button>
+        <button class="btn-ghost"   data-en="&#9658;&nbsp; Watch Our Story" data-hi="▶&nbsp; हमारी कहानी देखें" onclick="document.getElementById('media').scrollIntoView({behavior:'smooth'})">&#9658;&nbsp; Watch Our Story</button>
+      </div>
+    </div>
+    <div class="hero-since">
+      <div class="hero-since-label" data-en="Founded" data-hi="स्थापना">Founded</div>
+      <div class="hero-since-year">1925</div>
+    </div>
+    <div class="scroll-cue">
+      <div class="scroll-line"></div>
+      <span data-en="Scroll" data-hi="स्क्रॉल">Scroll</span>
+    </div>
+  </section>
+
+  <!-- ══ STATS ══ -->
+  <div class="stats-strip">
+    <div class="stat-item reveal">
+      <div class="stat-number">60<span class="stat-suffix">K+</span></div>
+      <div class="stat-label" data-en="Shakhas Nationwide" data-hi="देशभर में शाखाएँ">Shakhas Nationwide</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-1">
+      <div class="stat-number">5<span class="stat-suffix">M+</span></div>
+      <div class="stat-label" data-en="Active Swayamsevaks" data-hi="सक्रिय स्वयंसेवक">Active Swayamsevaks</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-2">
+      <div class="stat-number">36</div>
+      <div class="stat-label" data-en="Affiliated Organisations" data-hi="संबद्ध संगठन">Affiliated Organisations</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-3">
+      <div class="stat-number">100<span class="stat-suffix">+</span></div>
+      <div class="stat-label" data-en="Years of Seva" data-hi="सेवा के वर्ष">Years of Seva</div>
+    </div>
+  </div>
+
+  <!-- ══ VISION ══ -->
+  <section class="section" id="vision">
+    <div class="section-tag reveal" data-en="Our Journey" data-hi="हमारी यात्रा">Our Journey</div>
+    <h2 class="section-title reveal reveal-delay-1" data-en="A Century of Purpose,<br>Discipline &amp; Devotion" data-hi="उद्देश्य, अनुशासन और<br>समर्पण का एक शतक">A Century of Purpose,<br>Discipline &amp; Devotion</h2>
+    <div class="vision-grid">
+      <div class="timeline reveal">
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div>
+            <div class="tl-year" data-en="1925" data-hi="१९२५">1925</div>
+            <div class="tl-event" data-en="Foundation at Nagpur" data-hi="नागपुर में स्थापना">Foundation at Nagpur</div>
+            <div class="tl-desc" data-en="Dr. Keshav Baliram Hedgewar establishes the Sangh on Vijayadashami — a movement rooted in discipline, culture, and national pride. The first shakha begins with a handful of dedicated youth." data-hi="डॉ. केशव बलिराम हेडगेवार ने विजयादशमी पर संघ की स्थापना की — अनुशासन, संस्कृति और राष्ट्रगर्व में निहित एक आंदोलन। पहली शाखा कुछ समर्पित युवकों के साथ आरंभ हुई।">Dr. Keshav Baliram Hedgewar establishes the Sangh on Vijayadashami — a movement rooted in discipline, culture, and national pride. The first shakha begins with a handful of dedicated youth.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot gold"></div><div class="tl-line"></div></div>
+          <div>
+            <div class="tl-year" data-en="1947 – 1970s" data-hi="१९४७ – १९७०s">1947 – 1970s</div>
+            <div class="tl-event" data-en="Post-independence expansion" data-hi="स्वतंत्रता के बाद विस्तार">Post-independence expansion</div>
+            <div class="tl-desc" data-en="Shakhas spread across every state. Relief work during partition, floods, and earthquakes establishes RSS as a national first-responder force. Guruji Golwalkar steers the organisation through transformative decades." data-hi="हर राज्य में शाखाएँ फैलीं। विभाजन, बाढ़ और भूकंप के दौरान राहत कार्य ने RSS को राष्ट्रीय प्रथम-प्रतिक्रिया शक्ति के रूप में स्थापित किया। गुरुजी गोलवलकर ने परिवर्तनकारी दशकों में संगठन का मार्गदर्शन किया।">Shakhas spread across every state. Relief work during partition, floods, and earthquakes establishes RSS as a national first-responder force. Guruji Golwalkar steers the organisation through transformative decades.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot gold"></div><div class="tl-line"></div></div>
+          <div>
+            <div class="tl-year" data-en="1980s – 2000s" data-hi="१९८०s – २०००s">1980s – 2000s</div>
+            <div class="tl-event" data-en="Social transformation at scale" data-hi="व्यापक सामाजिक परिवर्तन">Social transformation at scale</div>
+            <div class="tl-desc" data-en="Expansion into education, tribal welfare, rural development, and cultural preservation through 36 affiliated organisations. Sewa Bharati becomes one of India's largest volunteer networks." data-hi="36 संबद्ध संगठनों के माध्यम से शिक्षा, जनजातीय कल्याण, ग्रामीण विकास और सांस्कृतिक संरक्षण में विस्तार। सेवा भारती भारत के सबसे बड़े स्वयंसेवक नेटवर्कों में से एक बनी।">Expansion into education, tribal welfare, rural development, and cultural preservation through 36 affiliated organisations. Sewa Bharati becomes one of India's largest volunteer networks.</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot light"></div></div>
+          <div>
+            <div class="tl-year" data-en="Today → 2047" data-hi="आज → २०४७">Today → 2047</div>
+            <div class="tl-event" data-en="Viksit Bharat Vision" data-hi="विकसित भारत की दृष्टि">Viksit Bharat Vision</div>
+            <div class="tl-desc" data-en="Advancing towards a developed, united, and self-reliant India for the nation's centenary of independence — building a civilisational powerhouse from the grassroots up." data-hi="राष्ट्र की स्वतंत्रता के शताब्दी वर्ष के लिए एक विकसित, एकजुट और आत्मनिर्भर भारत की ओर आगे बढ़ते हुए — जमीनी स्तर से एक सभ्यतागत महाशक्ति का निर्माण।">Advancing towards a developed, united, and self-reliant India for the nation's centenary of independence — building a civilisational powerhouse from the grassroots up.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pillars">
+        <div class="pillar-card reveal reveal-delay-1">
+          <div class="pillar-icon">🕉</div>
+          <div>
+            <div class="pillar-title" data-en="Cultural Integrity" data-hi="सांस्कृतिक अखंडता">Cultural Integrity</div>
+            <div class="pillar-desc" data-en="Preserving Bharatiya traditions, values, and civilisational heritage so future generations inherit an unbroken legacy." data-hi="भारतीय परंपराओं, मूल्यों और सभ्यतागत विरासत का संरक्षण ताकि भावी पीढ़ियाँ एक अटूट धरोहर पाएँ।">Preserving Bharatiya traditions, values, and civilisational heritage so future generations inherit an unbroken legacy.</div>
+          </div>
+        </div>
+        <div class="pillar-card reveal reveal-delay-2">
+          <div class="pillar-icon">🤝</div>
+          <div>
+            <div class="pillar-title" data-en="Social Harmony" data-hi="सामाजिक समरसता">Social Harmony</div>
+            <div class="pillar-desc" data-en="Bridging caste, class, and regional divides through the bond of shared national identity and mutual respect." data-hi="साझा राष्ट्रीय पहचान और परस्पर सम्मान के माध्यम से जाति, वर्ग और क्षेत्रीय विभाजनों को पाटना।">Bridging caste, class, and regional divides through the bond of shared national identity and mutual respect.</div>
+          </div>
+        </div>
+        <div class="pillar-card reveal reveal-delay-3">
+          <div class="pillar-icon">📚</div>
+          <div>
+            <div class="pillar-title" data-en="Character Building" data-hi="चरित्र निर्माण">Character Building</div>
+            <div class="pillar-desc" data-en="Developing disciplined, patriotic citizens through daily shakha practice, yoga, and community service." data-hi="दैनिक शाखा अभ्यास, योग और सामुदायिक सेवा के माध्यम से अनुशासित और देशभक्त नागरिकों का निर्माण।">Developing disciplined, patriotic citizens through daily shakha practice, yoga, and community service.</div>
+          </div>
+        </div>
+        <div class="pillar-card reveal reveal-delay-4">
+          <div class="pillar-icon">🌾</div>
+          <div>
+            <div class="pillar-title" data-en="Rural Empowerment" data-hi="ग्रामीण सशक्तिकरण">Rural Empowerment</div>
+            <div class="pillar-desc" data-en="Grassroots development reaching the most underserved communities across Bharat — from water conservation to livelihood creation." data-hi="भारत के सबसे वंचित समुदायों तक पहुँचने वाला जमीनी विकास — जल संरक्षण से लेकर आजीविका निर्माण तक।">Grassroots development reaching the most underserved communities across Bharat — from water conservation to livelihood creation.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ INITIATIVES ══ -->
+  <section class="section initiatives-bg" id="initiatives">
+    <div class="init-header">
+      <div class="section-tag reveal" data-en="Areas of Work" data-hi="कार्य के क्षेत्र">Areas of Work</div>
+      <h2 class="section-title reveal reveal-delay-1" data-en="Seva in Every Sphere of Life" data-hi="जीवन के हर क्षेत्र में सेवा">Seva in Every Sphere of Life</h2>
+      <p class="section-sub reveal reveal-delay-2" data-en="From classrooms to flood zones, from tribal hamlets to city centres — the work never stops." data-hi="कक्षाओं से लेकर बाढ़ प्रभावित क्षेत्रों तक, जनजातीय बस्तियों से लेकर नगर केंद्रों तक — यह कार्य कभी नहीं रुकता।">From classrooms to flood zones, from tribal hamlets to city centres — the work never stops.</p>
+    </div>
+    <div class="init-grid">
+      <div class="init-card reveal">
+        <div class="init-icon">🏫</div>
+        <div class="init-name" data-en="Education" data-hi="शिक्षा">Education</div>
+        <div class="init-count" data-en="14,000+ Vidya Bharati schools" data-hi="14,000+ विद्या भारती विद्यालय">14,000+ Vidya Bharati schools</div>
+        <div class="init-desc" data-en="Value-based education reaching 3.5 million students across India — nurturing both knowledge and character." data-hi="भारत भर में 35 लाख विद्यार्थियों तक पहुँचती मूल्य-आधारित शिक्षा — ज्ञान और चरित्र दोनों का पोषण।">Value-based education reaching 3.5 million students across India — nurturing both knowledge and character.</div>
+        <div class="init-arrow" data-en="Explore →" data-hi="देखें →">Explore →</div>
+      </div>
+      <div class="init-card reveal reveal-delay-1">
+        <div class="init-icon">🏥</div>
+        <div class="init-name" data-en="Health &amp; Relief" data-hi="स्वास्थ्य एवं राहत">Health &amp; Relief</div>
+        <div class="init-count" data-en="First responders in 200+ disasters" data-hi="200+ आपदाओं में प्रथम सहायता">First responders in 200+ disasters</div>
+        <div class="init-desc" data-en="Sewa Bharati's nationwide medical camps, blood donation drives, and rapid disaster relief network." data-hi="सेवा भारती के राष्ट्रव्यापी चिकित्सा शिविर, रक्तदान अभियान और त्वरित आपदा राहत नेटवर्क।">Sewa Bharati's nationwide medical camps, blood donation drives, and rapid disaster relief network.</div>
+        <div class="init-arrow" data-en="Explore →" data-hi="देखें →">Explore →</div>
+      </div>
+      <div class="init-card reveal reveal-delay-2">
+        <div class="init-icon">🌱</div>
+        <div class="init-name" data-en="Rural Development" data-hi="ग्रामीण विकास">Rural Development</div>
+        <div class="init-count" data-en="75,000+ villages reached" data-hi="75,000+ गाँवों तक पहुँच">75,000+ villages reached</div>
+        <div class="init-desc" data-en="Water conservation, sustainable agriculture, and livelihood programs transforming rural Bharat." data-hi="जल संरक्षण, टिकाऊ कृषि और आजीविका कार्यक्रमों से ग्रामीण भारत का कायाकल्प।">Water conservation, sustainable agriculture, and livelihood programs transforming rural Bharat.</div>
+        <div class="init-arrow" data-en="Explore →" data-hi="देखें →">Explore →</div>
+      </div>
+      <div class="init-card reveal reveal-delay-3">
+        <div class="init-icon">🎭</div>
+        <div class="init-name" data-en="Cultural Preservation" data-hi="सांस्कृतिक संरक्षण">Cultural Preservation</div>
+        <div class="init-count" data-en="Across 700 districts" data-hi="700 जिलों में">Across 700 districts</div>
+        <div class="init-desc" data-en="Promoting folk arts, classical traditions, Sanskrit, and regional languages for generations to come." data-hi="लोक कलाओं, शास्त्रीय परंपराओं, संस्कृत और क्षेत्रीय भाषाओं को आने वाली पीढ़ियों के लिए प्रोत्साहित करना।">Promoting folk arts, classical traditions, Sanskrit, and regional languages for generations to come.</div>
+        <div class="init-arrow" data-en="Explore →" data-hi="देखें →">Explore →</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ MAP ══ -->
+  <section class="map-section" id="impact">
+    <div class="section-tag reveal" data-en="National Presence" data-hi="राष्ट्रीय उपस्थिति">National Presence</div>
+    <h2 class="section-title reveal reveal-delay-1" data-en="Every State. Every District.<br>Every Village." data-hi="हर राज्य। हर जिला।<br>हर गाँव।">Every State. Every District.<br>Every Village.</h2>
+    <p class="section-sub reveal reveal-delay-2" data-en="From Kashmir to Kanyakumari, the Sangh's reach is truly national — and growing globally." data-hi="कश्मीर से कन्याकुमारी तक, संघ की पहुँच सच में राष्ट्रीय है — और वैश्विक स्तर पर बढ़ रही है।">From Kashmir to Kanyakumari, the Sangh's reach is truly national — and growing globally.</p>
+    <div class="map-layout reveal">
+      <div class="map-side">
+        <div class="map-stat-card">
+          <div class="map-stat-num">28</div>
+          <div class="map-stat-label" data-en="States with Active Presence" data-hi="सक्रिय उपस्थिति वाले राज्य">States with Active Presence</div>
+        </div>
+        <div class="map-stat-card">
+          <div class="map-stat-num">600+</div>
+          <div class="map-stat-label" data-en="Districts Covered" data-hi="जिलों में कार्य">Districts Covered</div>
+        </div>
+        <div class="map-stat-card">
+          <div class="map-stat-num">14K+</div>
+          <div class="map-stat-label" data-en="Sewa Projects Active" data-hi="सक्रिय सेवा परियोजनाएँ">Sewa Projects Active</div>
+        </div>
+      </div>
+      <div>
+        <svg class="india-svg" width="220" height="270" viewBox="0 0 220 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M110 8 L148 22 L178 48 L192 80 L188 115 L200 148 L186 172 L172 195 L155 218 L110 252 L65 218 L48 195 L34 172 L20 148 L32 115 L28 80 L42 48 L72 22 Z" fill="rgba(232,101,10,0.12)" stroke="rgba(232,101,10,0.45)" stroke-width="1.5"/>
+          <path d="M110 8 L110 252" stroke="rgba(232,101,10,0.15)" stroke-width="0.8"/>
+          <path d="M42 110 L188 115" stroke="rgba(232,101,10,0.15)" stroke-width="0.8"/>
+          <path d="M55 160 L175 165" stroke="rgba(232,101,10,0.12)" stroke-width="0.8"/>
+          <circle cx="110" cy="130" r="7" fill="#E8650A" opacity="0.9"/>
+          <circle cx="110" cy="130" r="14" fill="#E8650A" opacity="0.15"/>
+          <circle cx="85" cy="95"  r="4" fill="rgba(232,101,10,0.7)"/>
+          <circle cx="135" cy="90" r="4" fill="rgba(232,101,10,0.7)"/>
+          <circle cx="75" cy="140" r="3.5" fill="rgba(232,101,10,0.55)"/>
+          <circle cx="148" cy="148" r="3.5" fill="rgba(232,101,10,0.55)"/>
+          <circle cx="110" cy="185" r="3.5" fill="rgba(232,101,10,0.55)"/>
+          <circle cx="90" cy="55"  r="2.5" fill="rgba(232,101,10,0.4)"/>
+          <circle cx="130" cy="50" r="2.5" fill="rgba(232,101,10,0.4)"/>
+          <circle cx="65" cy="120" r="2.5" fill="rgba(232,101,10,0.4)"/>
+          <circle cx="155" cy="125" r="2.5" fill="rgba(232,101,10,0.4)"/>
+          <text x="110" y="272" text-anchor="middle" font-size="12" fill="rgba(255,255,255,0.25)" font-family="DM Sans, sans-serif" letter-spacing="1">BHARAT</text>
+        </svg>
+      </div>
+      <div class="map-side" style="text-align:right;">
+        <div class="map-stat-card" style="text-align:right;">
+          <div class="map-stat-num">60K+</div>
+          <div class="map-stat-label" data-en="Daily Shakha Sessions" data-hi="दैनिक शाखा सत्र">Daily Shakha Sessions</div>
+        </div>
+        <div class="map-stat-card" style="text-align:right;">
+          <div class="map-stat-num">5M+</div>
+          <div class="map-stat-label" data-en="Trained Swayamsevaks" data-hi="प्रशिक्षित स्वयंसेवक">Trained Swayamsevaks</div>
+        </div>
+        <div class="map-stat-card" style="text-align:right;">
+          <div class="map-stat-num">150+</div>
+          <div class="map-stat-label" data-en="Countries — Diaspora Reach" data-hi="देश — प्रवासी पहुँच">Countries — Diaspora Reach</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ STORIES ══ -->
+  <section class="section stories-section" id="media">
+    <div class="section-tag reveal" data-en="Stories &amp; Media" data-hi="कहानियाँ एवं मीडिया">Stories &amp; Media</div>
+    <h2 class="section-title reveal reveal-delay-1" data-en="Seva in Their Own Words" data-hi="उनकी अपनी ज़ुबान में सेवा">Seva in Their Own Words</h2>
+    <p class="section-sub reveal reveal-delay-2" data-en="Voices from the ground — swayamsevaks, communities, and changemakers across Bharat." data-hi="जमीन से आवाजें — भारत भर के स्वयंसेवक, समुदाय और परिवर्तनकर्ता।">Voices from the ground — swayamsevaks, communities, and changemakers across Bharat.</p>
+    <div class="stories-grid">
+      <div class="story-card reveal">
+        <div class="story-thumb">
+          <div class="story-thumb-bg s1">🙏</div>
+          <div class="story-tag" data-en="Sewa" data-hi="सेवा">Sewa</div>
+        </div>
+        <div class="story-body">
+          <div class="story-title" data-en="Flood Relief in Assam: 10,000 families reached in 72 hours" data-hi="असम में बाढ़ राहत: 72 घंटों में 10,000 परिवारों तक पहुँच">Flood Relief in Assam: 10,000 families reached in 72 hours</div>
+          <div class="story-meta" data-en="12 April 2025 · 4 min read" data-hi="12 अप्रैल 2025 · 4 मिनट">12 April 2025 · 4 min read</div>
+        </div>
+      </div>
+      <div class="story-card reveal reveal-delay-1">
+        <div class="story-thumb">
+          <div class="story-thumb-bg s2">🌱</div>
+          <div class="story-tag" data-en="Education" data-hi="शिक्षा">Education</div>
+        </div>
+        <div class="story-body">
+          <div class="story-title" data-en="From a tribal hamlet to IIT — a Vidya Bharati success story" data-hi="जनजातीय बस्ती से IIT तक — विद्या भारती की सफलता की कहानी">From a tribal hamlet to IIT — a Vidya Bharati success story</div>
+          <div class="story-meta" data-en="3 March 2025 · 6 min read" data-hi="3 मार्च 2025 · 6 मिनट">3 March 2025 · 6 min read</div>
+        </div>
+      </div>
+      <div class="story-card reveal reveal-delay-2">
+        <div class="story-thumb">
+          <div class="story-thumb-bg s3">🎭</div>
+          <div class="story-tag" data-en="Culture" data-hi="संस्कृति">Culture</div>
+        </div>
+        <div class="story-body">
+          <div class="story-title" data-en="Reviving Chhau — how a dying folk dance found new life" data-hi="छऊ का पुनरुद्धार — एक लुप्त होती लोक नृत्य को नया जीवन कैसे मिला">Reviving Chhau — how a dying folk dance found new life</div>
+          <div class="story-meta" data-en="18 Feb 2025 · 5 min read" data-hi="18 फरवरी 2025 · 5 मिनट">18 Feb 2025 · 5 min read</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ EVENTS ══ -->
+  <section class="section" id="events">
+    <div class="section-tag reveal" data-en="Upcoming" data-hi="आगामी">Upcoming</div>
+    <h2 class="section-title reveal reveal-delay-1" data-en="Events &amp; Announcements" data-hi="कार्यक्रम एवं घोषणाएँ">Events &amp; Announcements</h2>
+    <div class="events-list reveal">
+      <div class="event-item">
+        <div class="event-date">
+          <div class="event-day">02</div>
+          <div class="event-month" data-en="Oct" data-hi="अक्तू">Oct</div>
+        </div>
+        <div>
+          <div class="event-name" data-en="Vijayadashami Utsav — Nagpur Headquarters" data-hi="विजयादशमी उत्सव — नागपुर मुख्यालय">Vijayadashami Utsav — Nagpur Headquarters</div>
+          <div class="event-loc" data-en="RSS Headquarters, Nagpur, Maharashtra" data-hi="RSS मुख्यालय, नागपुर, महाराष्ट्र">RSS Headquarters, Nagpur, Maharashtra</div>
+        </div>
+        <div class="event-badge live" data-en="Flagship Event" data-hi="प्रमुख कार्यक्रम">Flagship Event</div>
+      </div>
+      <div class="event-item">
+        <div class="event-date">
+          <div class="event-day">15</div>
+          <div class="event-month" data-en="Aug" data-hi="अग">Aug</div>
+        </div>
+        <div>
+          <div class="event-name" data-en="Independence Day — National Shakha Rally" data-hi="स्वतंत्रता दिवस — राष्ट्रीय शाखा रैली">Independence Day — National Shakha Rally</div>
+          <div class="event-loc" data-en="All India — 60,000+ Locations Simultaneously" data-hi="अखिल भारत — एक साथ 60,000+ स्थानों पर">All India — 60,000+ Locations Simultaneously</div>
+        </div>
+        <div class="event-badge" data-en="National" data-hi="राष्ट्रीय">National</div>
+      </div>
+      <div class="event-item">
+        <div class="event-date">
+          <div class="event-day">28</div>
+          <div class="event-month" data-en="Jun" data-hi="जून">Jun</div>
+        </div>
+        <div>
+          <div class="event-name" data-en="Yuva Shakti Shibir — Leadership Camp 2025" data-hi="युवा शक्ति शिबिर — नेतृत्व प्रशिक्षण 2025">Yuva Shakti Shibir — Leadership Camp 2025</div>
+          <div class="event-loc" data-en="Pune, Maharashtra" data-hi="पुणे, महाराष्ट्र">Pune, Maharashtra</div>
+        </div>
+        <div class="event-badge" data-en="Registration Open" data-hi="पंजीकरण खुला">Registration Open</div>
+      </div>
+      <div class="event-item">
+        <div class="event-date">
+          <div class="event-day">10</div>
+          <div class="event-month" data-en="Jun" data-hi="जून">Jun</div>
+        </div>
+        <div>
+          <div class="event-name" data-en="Sewa Diwas — Mass Blood Donation Drive" data-hi="सेवा दिवस — सामूहिक रक्तदान अभियान">Sewa Diwas — Mass Blood Donation Drive</div>
+          <div class="event-loc" data-en="200+ Cities Across India" data-hi="भारत के 200+ शहरों में">200+ Cities Across India</div>
+        </div>
+        <div class="event-badge" data-en="Pan India" data-hi="पूरे भारत में">Pan India</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ LEADERSHIP ══ -->
+  <section class="section leadership-section">
+    <div class="section-tag reveal" data-en="Leadership" data-hi="नेतृत्व">Leadership</div>
+    <h2 class="section-title reveal reveal-delay-1" data-en="Guiding the Nation With Humility" data-hi="विनम्रता के साथ राष्ट्र का मार्गदर्शन">Guiding the Nation With Humility</h2>
+    <div class="leaders-grid">
+      <div class="leader-card reveal">
+        <div class="leader-avatar">MB</div>
+        <div class="leader-name" data-en="Dr. Mohan Bhagwat" data-hi="डॉ. मोहन भागवत">Dr. Mohan Bhagwat</div>
+        <div class="leader-role" data-en="Sarsanghchalak<br>RSS Chief" data-hi="सरसंघचालक<br>RSS प्रमुख">Sarsanghchalak<br>RSS Chief</div>
+      </div>
+      <div class="leader-card reveal reveal-delay-1">
+        <div class="leader-avatar gold">DH</div>
+        <div class="leader-name" data-en="Shri Dattatreya Hosabale" data-hi="श्री दत्तात्रेय होसबाले">Shri Dattatreya Hosabale</div>
+        <div class="leader-role" data-en="Sarkaryavah<br>General Secretary" data-hi="सरकार्यवाह<br>महासचिव">Sarkaryavah<br>General Secretary</div>
+      </div>
+      <div class="leader-card reveal reveal-delay-2">
+        <div class="leader-avatar dark">SJ</div>
+        <div class="leader-name" data-en="Shri Suresh Joshi" data-hi="श्री सुरेश जोशी">Shri Suresh Joshi</div>
+        <div class="leader-role" data-en="Sahsarkaryavah<br>Joint General Secretary" data-hi="सहसरकार्यवाह<br>संयुक्त महासचिव">Sahsarkaryavah<br>Joint General Secretary</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ JOIN ══ -->
+  <section class="join-section" id="join">
+    <div class="section-tag" data-en="Be Part of the Movement" data-hi="आंदोलन का हिस्सा बनें">Be Part of the Movement</div>
+    <h2 class="section-title" data-en="Your Nation Needs You" data-hi="आपका राष्ट्र आपको चाहता है">Your Nation Needs You</h2>
+    <p class="section-sub" data-en="Whether you have one hour a week or a lifetime of dedication — there is a place for you in the Sangh." data-hi="चाहे आपके पास सप्ताह में एक घंटा हो या जीवन भर का समर्पण — संघ में आपके लिए जगह है।">Whether you have one hour a week or a lifetime of dedication — there is a place for you in the Sangh.</p>
+    <div class="join-options">
+      <div class="join-option">
+        <div class="join-option-icon">🗓</div>
+        <div class="join-option-title" data-en="Attend a Shakha" data-hi="शाखा में आएँ">Attend a Shakha</div>
+        <div class="join-option-sub" data-en="Find your nearest daily session and experience the Sangh firsthand." data-hi="अपने नजदीकी दैनिक सत्र का पता लगाएँ और संघ का प्रत्यक्ष अनुभव करें।">Find your nearest daily session and experience the Sangh firsthand.</div>
+      </div>
+      <div class="join-option">
+        <div class="join-option-icon">🙌</div>
+        <div class="join-option-title" data-en="Volunteer for Seva" data-hi="सेवा में योगदान करें">Volunteer for Seva</div>
+        <div class="join-option-sub" data-en="Join thousands of swayamsevaks serving communities every single day." data-hi="हर दिन समुदायों की सेवा करने वाले हजारों स्वयंसेवकों से जुड़ें।">Join thousands of swayamsevaks serving communities every single day.</div>
+      </div>
+      <div class="join-option">
+        <div class="join-option-icon">📣</div>
+        <div class="join-option-title" data-en="Spread the Mission" data-hi="मिशन को फैलाएँ">Spread the Mission</div>
+        <div class="join-option-sub" data-en="Share stories, ideas, and energy — every voice matters in this movement." data-hi="कहानियाँ, विचार और ऊर्जा साझा करें — इस आंदोलन में हर आवाज़ मायने रखती है।">Share stories, ideas, and energy — every voice matters in this movement.</div>
+      </div>
+    </div>
+    <button class="join-btn" data-en="Find Your Nearest Shakha →" data-hi="अपनी नजदीकी शाखा खोजें →" onclick="alert('Find your nearest Shakha — coming soon!')">Find Your Nearest Shakha →</button>
+  </section>
+
+  <!-- ══ NEWSLETTER ══ -->
+  <div class="newsletter">
+    <div class="newsletter-text">
+      <h3 data-en="Stay Connected with the Sangh" data-hi="संघ से जुड़े रहें">Stay Connected with the Sangh</h3>
+      <p data-en="Receive updates on events, initiatives, and stories from across Bharat." data-hi="भारत भर के कार्यक्रमों, पहलों और कहानियों की अपडेट पाएँ।">Receive updates on events, initiatives, and stories from across Bharat.</p>
+    </div>
+    <div class="newsletter-form">
+      <input type="email" class="newsletter-input" id="emailInput" data-en-placeholder="Your email address" data-hi-placeholder="आपका ईमेल पता" placeholder="Your email address" />
+      <button class="newsletter-btn" data-en="Subscribe" data-hi="सदस्यता लें" onclick="handleSubscribe()">Subscribe</button>
+    </div>
+  </div>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <a href="#" class="nav-logo" style="display:inline-flex;">
+          <div class="logo-mark">RSS</div>
+          <span class="logo-text" style="color:var(--cream);" data-en="Rashtriya Swayamsevak Sangh" data-hi="राष्ट्रीय स्वयंसेवक संघ">Rashtriya Swayamsevak Sangh</span>
+        </a>
+        <p class="footer-brand-desc" data-en="A century-old movement dedicated to the cultural and social regeneration of Bharat through the building of strong, selfless, and patriotic individuals. Serving since 1925." data-hi="एक शताब्दी पुराना आंदोलन जो मजबूत, निःस्वार्थ और देशभक्त व्यक्तियों के निर्माण के माध्यम से भारत के सांस्कृतिक और सामाजिक पुनर्जागरण को समर्पित है। 1925 से सेवा में।">A century-old movement dedicated to the cultural and social regeneration of Bharat through the building of strong, selfless, and patriotic individuals. Serving since 1925.</p>
+      </div>
+      <div>
+        <div class="footer-col-title" data-en="Organisation" data-hi="संगठन">Organisation</div>
+        <ul class="footer-links">
+          <li><a href="#" data-en="About RSS"       data-hi="RSS के बारे में">About RSS</a></li>
+          <li><a href="#" data-en="Vision &amp; Mission" data-hi="दृष्टि एवं मिशन">Vision &amp; Mission</a></li>
+          <li><a href="#" data-en="Leadership"      data-hi="नेतृत्व">Leadership</a></li>
+          <li><a href="#" data-en="History"         data-hi="इतिहास">History</a></li>
+          <li><a href="#" data-en="Affiliates"      data-hi="संबद्ध संगठन">Affiliates</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title" data-en="Work" data-hi="कार्य">Work</div>
+        <ul class="footer-links">
+          <li><a href="#" data-en="Education"         data-hi="शिक्षा">Education</a></li>
+          <li><a href="#" data-en="Social Service"    data-hi="सामाजिक सेवा">Social Service</a></li>
+          <li><a href="#" data-en="Rural Development" data-hi="ग्रामीण विकास">Rural Development</a></li>
+          <li><a href="#" data-en="Relief &amp; Disaster" data-hi="राहत एवं आपदा">Relief &amp; Disaster</a></li>
+          <li><a href="#" data-en="Culture &amp; Arts"    data-hi="संस्कृति एवं कला">Culture &amp; Arts</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title" data-en="Connect" data-hi="संपर्क">Connect</div>
+        <ul class="footer-links">
+          <li><a href="#" data-en="Find a Shakha"    data-hi="शाखा खोजें">Find a Shakha</a></li>
+          <li><a href="#" data-en="Events Calendar"  data-hi="कार्यक्रम कैलेंडर">Events Calendar</a></li>
+          <li><a href="#" data-en="Media &amp; Press"    data-hi="मीडिया एवं प्रेस">Media &amp; Press</a></li>
+          <li><a href="#" data-en="Publications"     data-hi="प्रकाशन">Publications</a></li>
+          <li><a href="#" data-en="Contact"          data-hi="संपर्क करें">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-en="© 2025 Rashtriya Swayamsevak Sangh. Serving Bharat since 1925." data-hi="© 2025 राष्ट्रीय स्वयंसेवक संघ। 1925 से भारत की सेवा में।">© 2025 Rashtriya Swayamsevak Sangh. Serving Bharat since 1925.</p>
+      <div class="social-row">
+        <div class="social-pill">Twitter / X</div>
+        <div class="social-pill">YouTube</div>
+        <div class="social-pill">Facebook</div>
+        <div class="social-pill">Instagram</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══ FLOATING LANGUAGE SWITCHER FAB ══ -->
+  <div class="lang-fab" role="group" aria-label="Language switcher">
+    <div class="fab-tooltip" id="fabTooltip">Switch Language / भाषा बदलें</div>
+    <button class="fab-btn active" id="fabEN" onclick="applyLanguage('en')" aria-label="English">
+      <span class="fab-flag">🇬🇧</span>
+      <span class="fab-en">EN</span>
+    </button>
+    <div class="fab-divider"></div>
+    <button class="fab-btn" id="fabHI" onclick="applyLanguage('hi')" aria-label="हिंदी">
+      <span class="fab-flag">🇮🇳</span>
+      <span class="fab-hi">हिंदी</span>
+    </button>
+  </div>
+
+  <!-- ══ JAVASCRIPT ══ -->
+  <script>
+    let currentLang = 'en';
+
+    /* ── Position the sliding pill inside nav switcher ── */
+    function positionSlider(lang) {
+      const btn = document.getElementById(lang === 'en' ? 'btnEN' : 'btnHI');
+      const slider = document.getElementById('langSlider');
+      const switcher = document.getElementById('navLangSwitcher');
+      if (!btn || !slider || !switcher) return;
+      const switcherRect = switcher.getBoundingClientRect();
+      const btnRect = btn.getBoundingClientRect();
+      slider.style.left  = (btnRect.left - switcherRect.left - 3) + 'px';
+      slider.style.width = btnRect.width + 'px';
+    }
+
+    function applyLanguage(lang) {
+      currentLang = lang;
+      const isHi = lang === 'hi';
+
+      /* html lang attr */
+      document.documentElement.lang = isHi ? 'hi' : 'en';
+
+      /* body class for font switching */
+      document.body.classList.toggle('lang-hi', isHi);
+
+      /* ── Nav segmented pill ── */
+      document.getElementById('btnEN').classList.toggle('active', !isHi);
+      document.getElementById('btnHI').classList.toggle('active',  isHi);
+      document.getElementById('btnEN').setAttribute('aria-pressed', String(!isHi));
+      document.getElementById('btnHI').setAttribute('aria-pressed', String(isHi));
+      positionSlider(lang);
+
+      /* ── Mobile buttons ── */
+      const mbEN = document.getElementById('mbtnEN');
+      const mbHI = document.getElementById('mbtnHI');
+      if (mbEN) mbEN.classList.toggle('active', !isHi);
+      if (mbHI) mbHI.classList.toggle('active',  isHi);
+
+      /* ── FAB ── */
+      const fabEN = document.getElementById('fabEN');
+      const fabHI = document.getElementById('fabHI');
+      if (fabEN) fabEN.classList.toggle('active', !isHi);
+      if (fabHI) fabHI.classList.toggle('active',  isHi);
+
+      /* ── Swap all translatable text ── */
+      document.querySelectorAll('[data-en][data-hi]').forEach(el => {
+        const val = el.getAttribute('data-' + lang);
+        if (val !== null) el.innerHTML = val;
+      });
+
+      /* ── Email placeholder ── */
+      const emailInput = document.getElementById('emailInput');
+      if (emailInput) {
+        emailInput.placeholder = isHi
+          ? emailInput.getAttribute('data-hi-placeholder')
+          : emailInput.getAttribute('data-en-placeholder');
+      }
+
+      /* ── Persist ── */
+      try { localStorage.setItem('rss-lang', lang); } catch(e) {}
+    }
+
+    function toggleLang() {
+      applyLanguage(currentLang === 'en' ? 'hi' : 'en');
+    }
+
+    /* ─── Nav scroll effect ─── */
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    /* ─── Mobile menu ─── */
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+
+    function scrollToJoin() {
+      document.getElementById('join').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    /* ─── Scroll reveal ─── */
+    const revealEls = document.querySelectorAll('.reveal');
+    const revealObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    revealEls.forEach(el => revealObs.observe(el));
+
+    /* ─── Newsletter ─── */
+    function handleSubscribe() {
+      const input = document.getElementById('emailInput');
+      const btn   = document.querySelector('.newsletter-btn');
+      if (!input.value.trim() || !input.value.includes('@')) {
+        input.style.borderColor = 'rgba(232,101,10,0.7)';
+        setTimeout(() => { input.style.borderColor = ''; }, 1500);
+        return;
+      }
+      btn.textContent = currentLang === 'hi' ? 'सदस्यता हो गई ✓' : 'Subscribed ✓';
+      btn.style.background = '#1a7a5a';
+      input.value = '';
+    }
+
+    /* ─── Init slider position + restore saved language ─── */
+    window.addEventListener('load', function() {
+      const saved = (() => { try { return localStorage.getItem('rss-lang'); } catch(e) { return null; } })();
+      if (saved === 'hi') {
+        applyLanguage('hi');
+      } else {
+        positionSlider('en');
+      }
+    });
+    /* Also set on DOMContentLoaded so it positions correctly before fonts finish */
+    document.addEventListener('DOMContentLoaded', function() { positionSlider(currentLang); });
+  </script>
+</body>
+</html>
